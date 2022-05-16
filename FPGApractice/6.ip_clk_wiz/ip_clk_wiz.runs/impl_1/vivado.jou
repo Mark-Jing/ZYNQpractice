@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Sat May 14 15:43:40 2022
+# Process ID: 14112
+# Current directory: F:/ZYNQ/ip_clk_wiz/ip_clk_wiz.runs/impl_1
+# Command line: vivado.exe -log ip_clock_wiz.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ip_clock_wiz.tcl -notrace
+# Log file: F:/ZYNQ/ip_clk_wiz/ip_clk_wiz.runs/impl_1/ip_clock_wiz.vdi
+# Journal file: F:/ZYNQ/ip_clk_wiz/ip_clk_wiz.runs/impl_1\vivado.jou
+# Running On: DESKTOP-O59LNIU, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 16483 MB
+#-----------------------------------------------------------
+source ip_clock_wiz.tcl -notrace

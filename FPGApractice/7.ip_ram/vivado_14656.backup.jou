@@ -1,0 +1,38 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Sat May 14 21:46:17 2022
+# Process ID: 14656
+# Current directory: F:/BaiduNetdiskDownload/ZYNQ_7020_FPGA/ZYNQ_7020_FPGA/7_ip_ram
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3816 F:\BaiduNetdiskDownload\ZYNQ_7020_FPGA\ZYNQ_7020_FPGA\7_ip_ram\ip_ram.xpr
+# Log file: F:/BaiduNetdiskDownload/ZYNQ_7020_FPGA/ZYNQ_7020_FPGA/7_ip_ram/vivado.log
+# Journal file: F:/BaiduNetdiskDownload/ZYNQ_7020_FPGA/ZYNQ_7020_FPGA/7_ip_ram\vivado.jou
+# Running On: DESKTOP-O59LNIU, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 16483 MB
+#-----------------------------------------------------------
+start_gui
+open_project F:/BaiduNetdiskDownload/ZYNQ_7020_FPGA/ZYNQ_7020_FPGA/7_ip_ram/ip_ram.xpr
+upgrade_project -migrate_output_products
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -url localhost:3121 -allow_non_jtag
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210512180081]
+set_property PARAM.FREQUENCY 10000000 [get_hw_targets */xilinx_tcf/Digilent/210512180081]
+open_hw_target
+set_property PROGRAM.FILE {F:/BaiduNetdiskDownload/ZYNQ_7020_FPGA/ZYNQ_7020_FPGA/7_ip_ram/ip_ram.runs/impl_1/ip_ram.bit} [get_hw_devices xc7z020_1]
+set_property PROBES.FILE {F:/BaiduNetdiskDownload/ZYNQ_7020_FPGA/ZYNQ_7020_FPGA/7_ip_ram/ip_ram.runs/impl_1/ip_ram.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {F:/BaiduNetdiskDownload/ZYNQ_7020_FPGA/ZYNQ_7020_FPGA/7_ip_ram/ip_ram.runs/impl_1/ip_ram.ltx} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {F:/BaiduNetdiskDownload/ZYNQ_7020_FPGA/ZYNQ_7020_FPGA/7_ip_ram/ip_ram.runs/impl_1/ip_ram.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {F:/BaiduNetdiskDownload/ZYNQ_7020_FPGA/ZYNQ_7020_FPGA/7_ip_ram/ip_ram.runs/impl_1/ip_ram.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {F:/BaiduNetdiskDownload/ZYNQ_7020_FPGA/ZYNQ_7020_FPGA/7_ip_ram/ip_ram.runs/impl_1/ip_ram.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ram_rw/your_instance_name"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ram_rw/your_instance_name"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ram_rw/your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ram_rw/your_instance_name"}]]

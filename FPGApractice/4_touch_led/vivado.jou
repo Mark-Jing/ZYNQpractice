@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Sun May 15 21:54:10 2022
+# Process ID: 4156
+# Current directory: F:/ZYNQpractice/FPGApractice/4_touch_led
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22968 F:\ZYNQpractice\FPGApractice\4_touch_led\touch_led.xpr
+# Log file: F:/ZYNQpractice/FPGApractice/4_touch_led/vivado.log
+# Journal file: F:/ZYNQpractice/FPGApractice/4_touch_led\vivado.jou
+# Running On: DESKTOP-O59LNIU, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 16483 MB
+#-----------------------------------------------------------
+start_gui
+open_project F:/ZYNQpractice/FPGApractice/4_touch_led/touch_led.xpr
+upgrade_project -migrate_output_products
+update_compile_order -fileset sources_1
