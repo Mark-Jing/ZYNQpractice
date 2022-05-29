@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Thu May 26 20:36:38 2022
+# Process ID: 2564
+# Current directory: F:/ZYNQpractice/FPGApractice/11.rgb_lcd_colorbar
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16016 F:\ZYNQpractice\FPGApractice\11.rgb_lcd_colorbar\11.rgb_lcd_colorbar.xpr
+# Log file: F:/ZYNQpractice/FPGApractice/11.rgb_lcd_colorbar/vivado.log
+# Journal file: F:/ZYNQpractice/FPGApractice/11.rgb_lcd_colorbar\vivado.jou
+# Running On: DESKTOP-O59LNIU, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 16483 MB
+#-----------------------------------------------------------
+start_gui
+open_project F:/ZYNQpractice/FPGApractice/11.rgb_lcd_colorbar/11.rgb_lcd_colorbar.xpr
+update_compile_order -fileset sources_1

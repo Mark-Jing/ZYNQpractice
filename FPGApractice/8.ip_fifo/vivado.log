@@ -1,0 +1,526 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Mon May 16 22:21:01 2022
+# Process ID: 14208
+# Current directory: F:/ZYNQpractice/FPGApractice/8.ip_fifo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16204 F:\ZYNQpractice\FPGApractice\8.ip_fifo\8.ip_fifo.xpr
+# Log file: F:/ZYNQpractice/FPGApractice/8.ip_fifo/vivado.log
+# Journal file: F:/ZYNQpractice/FPGApractice/8.ip_fifo\vivado.jou
+# Running On: DESKTOP-O59LNIU, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 16483 MB
+#-----------------------------------------------------------
+start_gui
+open_project F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at F:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at F:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at F:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at F:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at F:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at F:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at F:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_es:part0:1.3 available at F:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/es/1.3/board.xml as part xcvc1902-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at F:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at F:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at F:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at F:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at F:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at F:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at F:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at F:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at F:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at F:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at F:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at F:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_es:part0:1.3 available at F:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/es/1.3/board.xml as part xcvm1802-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at F:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at F:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at F:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at F:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at F:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at F:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at F:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at F:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at F:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at F:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.0 available at F:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.0/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.1 available at F:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.1/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.2 available at F:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.2/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at F:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld_es:part0:1.0 available at F:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/es/1.0/board.xml as part xczu58dr-fsvg1517-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at F:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.0 available at F:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.0/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.1 available at F:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.1/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.2 available at F:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.2/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at F:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld_es:part0:1.0 available at F:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/es/1.0/board.xml as part xczu59dr-ffvf1760-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:1.0 available at F:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/1.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'F:/ZYNQpractice/8.ip_fifo' since last save.
+INFO: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.gen/sources_1', nor could it be found using path 'F:/ZYNQpractice/8.ip_fifo/8.ip_fifo.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/vivado/Vivado/2021.2/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:05 . Memory (MB): peak = 1612.191 ; gain = 0.000
+update_compile_order -fileset sources_1
+create_ip -name fifo_generator -vendor xilinx.com -library ip -version 13.2 -module_name fifo_generator_0
+set_property -dict [list CONFIG.Fifo_Implementation {Independent_Clocks_Block_RAM} CONFIG.Input_Data_Width {8} CONFIG.Input_Depth {256} CONFIG.Output_Data_Width {8} CONFIG.Output_Depth {256} CONFIG.Reset_Type {Asynchronous_Reset} CONFIG.Full_Flags_Reset_Value {1} CONFIG.Almost_Full_Flag {true} CONFIG.Almost_Empty_Flag {true} CONFIG.Data_Count_Width {8} CONFIG.Write_Data_Count {true} CONFIG.Write_Data_Count_Width {8} CONFIG.Read_Data_Count {true} CONFIG.Read_Data_Count_Width {8} CONFIG.Full_Threshold_Assert_Value {253} CONFIG.Full_Threshold_Negate_Value {252} CONFIG.Enable_Safety_Circuit {true}] [get_ips fifo_generator_0]
+generate_target {instantiation_template} [get_files f:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.srcs/sources_1/ip/fifo_generator_0_1/fifo_generator_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'fifo_generator_0'...
+generate_target all [get_files  f:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.srcs/sources_1/ip/fifo_generator_0_1/fifo_generator_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fifo_generator_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'fifo_generator_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'fifo_generator_0'...
+catch { config_ip_cache -export [get_ips -all fifo_generator_0] }
+export_ip_user_files -of_objects [get_files f:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.srcs/sources_1/ip/fifo_generator_0_1/fifo_generator_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] f:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.srcs/sources_1/ip/fifo_generator_0_1/fifo_generator_0.xci]
+launch_runs fifo_generator_0_synth_1 -jobs 16
+[Mon May 16 22:24:13 2022] Launched fifo_generator_0_synth_1...
+Run output will be captured here: F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/fifo_generator_0_synth_1/runme.log
+export_simulation -of_objects [get_files f:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.srcs/sources_1/ip/fifo_generator_0_1/fifo_generator_0.xci] -directory F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.ip_user_files/sim_scripts -ip_user_files_dir F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.ip_user_files -ipstatic_source_dir F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.cache/compile_simlib/modelsim} {questa=F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.cache/compile_simlib/questa} {riviera=F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.cache/compile_simlib/riviera} {activehdl=F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_runs impl_1 -jobs 16
+[Mon May 16 22:56:14 2022] Launched synth_1...
+Run output will be captured here: F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/synth_1/runme.log
+[Mon May 16 22:56:14 2022] Launched impl_1...
+Run output will be captured here: F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Mon May 16 22:56:57 2022] Launched synth_1...
+Run output will be captured here: F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/synth_1/runme.log
+[Mon May 16 22:56:57 2022] Launched impl_1...
+Run output will be captured here: F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Mon May 16 22:58:23 2022] Launched synth_1...
+Run output will be captured here: F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/synth_1/runme.log
+[Mon May 16 22:58:23 2022] Launched impl_1...
+Run output will be captured here: F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Mon May 16 23:00:06 2022] Launched synth_1...
+Run output will be captured here: F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/synth_1/runme.log
+[Mon May 16 23:00:06 2022] Launched impl_1...
+Run output will be captured here: F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Mon May 16 23:02:26 2022] Launched synth_1...
+Run output will be captured here: F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/synth_1/runme.log
+[Mon May 16 23:02:26 2022] Launched impl_1...
+Run output will be captured here: F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/runme.log
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7z020clg400-2
+Top: ip_fifo
+INFO: [Device 21-403] Loading part xc7z020clg400-2
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1888.477 ; gain = 276.285
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'ip_fifo' [F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.srcs/sources_1/new/ip_fifo.v:1]
+INFO: [Synth 8-6157] synthesizing module 'fifo_rd' [F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.srcs/sources_1/new/fifo_rd.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_rd' (1#1) [F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.srcs/sources_1/new/fifo_rd.v:1]
+INFO: [Synth 8-6157] synthesizing module 'fifo_wr' [F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.srcs/sources_1/new/fifo_wr.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_wr' (2#1) [F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.srcs/sources_1/new/fifo_wr.v:1]
+INFO: [Synth 8-6157] synthesizing module 'fifo_generator_0' [F:/ZYNQpractice/FPGApractice/8.ip_fifo/.Xil/Vivado-14208-DESKTOP-O59LNIU/realtime/fifo_generator_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_generator_0' (3#1) [F:/ZYNQpractice/FPGApractice/8.ip_fifo/.Xil/Vivado-14208-DESKTOP-O59LNIU/realtime/fifo_generator_0_stub.v:6]
+WARNING: [Synth 8-689] width (1) of port connection 'wr_data_count' does not match port width (8) of module 'fifo_generator_0' [F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.srcs/sources_1/new/ip_fifo.v:42]
+WARNING: [Synth 8-7071] port 'wr_rst_busy' of module 'fifo_generator_0' is unconnected for instance 'your_instance_name' [F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.srcs/sources_1/new/ip_fifo.v:29]
+WARNING: [Synth 8-7071] port 'rd_rst_busy' of module 'fifo_generator_0' is unconnected for instance 'your_instance_name' [F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.srcs/sources_1/new/ip_fifo.v:29]
+WARNING: [Synth 8-7023] instance 'your_instance_name' of module 'fifo_generator_0' has 15 connections declared, but only 13 given [F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.srcs/sources_1/new/ip_fifo.v:29]
+INFO: [Synth 8-6155] done synthesizing module 'ip_fifo' (4#1) [F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.srcs/sources_1/new/ip_fifo.v:1]
+WARNING: [Synth 8-7129] Port fifo_dout[7] in module fifo_rd is either unconnected or has no load
+WARNING: [Synth 8-7129] Port fifo_dout[6] in module fifo_rd is either unconnected or has no load
+WARNING: [Synth 8-7129] Port fifo_dout[5] in module fifo_rd is either unconnected or has no load
+WARNING: [Synth 8-7129] Port fifo_dout[4] in module fifo_rd is either unconnected or has no load
+WARNING: [Synth 8-7129] Port fifo_dout[3] in module fifo_rd is either unconnected or has no load
+WARNING: [Synth 8-7129] Port fifo_dout[2] in module fifo_rd is either unconnected or has no load
+WARNING: [Synth 8-7129] Port fifo_dout[1] in module fifo_rd is either unconnected or has no load
+WARNING: [Synth 8-7129] Port fifo_dout[0] in module fifo_rd is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1949.598 ; gain = 337.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1969.465 ; gain = 357.273
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1969.465 ; gain = 357.273
+---------------------------------------------------------------------------------
+INFO: [Project 1-454] Reading design checkpoint 'f:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.gen/sources_1/ip/fifo_generator_0/fifo_generator_0.dcp' for cell 'your_instance_name'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 2001.988 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2021.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [f:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.gen/sources_1/ip/fifo_generator_0/fifo_generator_0.xdc] for cell 'your_instance_name/U0'
+Finished Parsing XDC File [f:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.gen/sources_1/ip/fifo_generator_0/fifo_generator_0.xdc] for cell 'your_instance_name/U0'
+Parsing XDC File [f:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.gen/sources_1/ip/fifo_generator_0/fifo_generator_0_clocks.xdc] for cell 'your_instance_name/U0'
+Finished Parsing XDC File [f:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.gen/sources_1/ip/fifo_generator_0/fifo_generator_0_clocks.xdc] for cell 'your_instance_name/U0'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [F:/vivado/Vivado/2021.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ip_fifo_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/ip_fifo_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [F:/vivado/Vivado/2021.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ip_fifo_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/ip_fifo_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-1714] 6 XPM XDC files have been applied to the design.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2092.395 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 2188.043 ; gain = 575.852
+18 Infos, 12 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:12 . Memory (MB): peak = 2188.043 ; gain = 575.852
+place_ports sys_rst_n N16
+place_ports sys_clk U18
+set_property IOSTANDARD LVCMOS33 [get_ports [list sys_clk]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list sys_rst_n]]
+file mkdir F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.srcs/constrs_1/new
+close [ open F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.srcs/constrs_1/new/cons_fifo.xdc w ]
+add_files -fileset constrs_1 F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.srcs/constrs_1/new/cons_fifo.xdc
+set_property target_constrs_file F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.srcs/constrs_1/new/cons_fifo.xdc [current_fileset -constrset]
+save_constraints -force
+reset_run synth_1
+INFO: [Project 1-1160] Copying file F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/synth_1/ip_fifo.dcp to F:/ZYNQpractice/8.ip_fifo/8.ip_fifo.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Mon May 16 23:11:10 2022] Launched synth_1...
+Run output will be captured here: F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/synth_1/runme.log
+[Mon May 16 23:11:10 2022] Launched impl_1...
+Run output will be captured here: F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -url localhost:3121 -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2021.2
+  **** Build date : Oct 19 2021 at 03:13:30
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2021.2.0
+  ****** Build date   : Sep 28 2021-05:44:20
+    **** Build number : 2021.2.1632779060
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:05 ; elapsed = 00:00:24 . Memory (MB): peak = 2210.723 ; gain = 0.000
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210512180081]
+set_property PARAM.FREQUENCY 10000000 [get_hw_targets */xilinx_tcf/Digilent/210512180081]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+open_hw_target: Time (s): cpu = 00:00:05 ; elapsed = 00:00:13 . Memory (MB): peak = 3927.473 ; gain = 1716.750
+set_property PROGRAM.FILE {F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/ip_fifo.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/ip_fifo.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+create_ip -name ila -vendor xilinx.com -library ip -version 6.2 -module_name ila_0
+set_property -dict [list CONFIG.C_PROBE3_WIDTH {8} CONFIG.C_PROBE2_WIDTH {8} CONFIG.C_NUM_OF_PROBES {4}] [get_ips ila_0]
+generate_target {instantiation_template} [get_files f:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.srcs/sources_1/ip/ila_0_2/ila_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ila_0'...
+update_compile_order -fileset sources_1
+generate_target all [get_files  f:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.srcs/sources_1/ip/ila_0_2/ila_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ila_0'...
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'f:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.gen/sources_1/ip/ila_0/ila_0_ooc.xdc'
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'ila_0'...
+catch { config_ip_cache -export [get_ips -all ila_0] }
+export_ip_user_files -of_objects [get_files f:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.srcs/sources_1/ip/ila_0_2/ila_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] f:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.srcs/sources_1/ip/ila_0_2/ila_0.xci]
+launch_runs ila_0_synth_1 -jobs 16
+[Mon May 16 23:14:51 2022] Launched ila_0_synth_1...
+Run output will be captured here: F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/ila_0_synth_1/runme.log
+export_simulation -of_objects [get_files f:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.srcs/sources_1/ip/ila_0_2/ila_0.xci] -directory F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.ip_user_files/sim_scripts -ip_user_files_dir F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.ip_user_files -ipstatic_source_dir F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.cache/compile_simlib/modelsim} {questa=F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.cache/compile_simlib/questa} {riviera=F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.cache/compile_simlib/riviera} {activehdl=F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file F:/ZYNQpractice/8.ip_fifo/8.ip_fifo.srcs/utils_1/imports/synth_1/ip_fifo.dcp with file F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/synth_1/ip_fifo.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Mon May 16 23:17:08 2022] Launched synth_1...
+Run output will be captured here: F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/synth_1/runme.log
+[Mon May 16 23:17:08 2022] Launched impl_1...
+Run output will be captured here: F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/runme.log
+set_property PROBES.FILE {F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/ip_fifo.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/ip_fifo.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/ip_fifo.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 4085.230 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-2302] Device xc7z020 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+refresh_hw_device: Time (s): cpu = 00:00:03 ; elapsed = 00:00:13 . Memory (MB): peak = 4128.191 ; gain = 42.961
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_checker"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_checker"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2022-May-16 23:20:31
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_checker"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_checker"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2022-May-16 23:20:31
+INFO: [Labtools 27-3304] ILA Waveform data saved to file F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_checker"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2022-May-16 23:20:48
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_checker"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_checker"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2022-May-16 23:20:48
+INFO: [Labtools 27-3304] ILA Waveform data saved to file F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file F:/ZYNQpractice/8.ip_fifo/8.ip_fifo.srcs/utils_1/imports/synth_1/ip_fifo.dcp with file F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/synth_1/ip_fifo.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Mon May 16 23:25:52 2022] Launched synth_1...
+Run output will be captured here: F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/synth_1/runme.log
+[Mon May 16 23:25:52 2022] Launched impl_1...
+Run output will be captured here: F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/runme.log
+set_property PROBES.FILE {F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/ip_fifo.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/ip_fifo.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/ip_fifo.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 4223.406 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-2302] Device xc7z020 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+refresh_hw_device: Time (s): cpu = 00:00:02 ; elapsed = 00:00:13 . Memory (MB): peak = 4223.406 ; gain = 0.000
+set_property PROBES.FILE {F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/ip_fifo.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/ip_fifo.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/ip_fifo.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 4223.406 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-2302] Device xc7z020 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+refresh_hw_device: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 4223.406 ; gain = 0.000
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_checker"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2022-May-16 23:29:03
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_checker"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_checker"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2022-May-16 23:29:03
+INFO: [Labtools 27-3304] ILA Waveform data saved to file F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file F:/ZYNQpractice/8.ip_fifo/8.ip_fifo.srcs/utils_1/imports/synth_1/ip_fifo.dcp with file F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/synth_1/ip_fifo.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Mon May 16 23:30:16 2022] Launched synth_1...
+Run output will be captured here: F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/synth_1/runme.log
+[Mon May 16 23:30:16 2022] Launched impl_1...
+Run output will be captured here: F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/runme.log
+set_property PROBES.FILE {F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/ip_fifo.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/ip_fifo.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/ip_fifo.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-2302] Device xc7z020 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+refresh_hw_device: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 4229.773 ; gain = 0.000
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_checker"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2022-May-16 23:32:49
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_checker"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_checker"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2022-May-16 23:32:49
+INFO: [Labtools 27-3304] ILA Waveform data saved to file F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_checker"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2022-May-16 23:32:57
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_checker"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_checker"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2022-May-16 23:32:57
+INFO: [Labtools 27-3304] ILA Waveform data saved to file F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file F:/ZYNQpractice/8.ip_fifo/8.ip_fifo.srcs/utils_1/imports/synth_1/ip_fifo.dcp with file F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/synth_1/ip_fifo.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Mon May 16 23:35:51 2022] Launched synth_1...
+Run output will be captured here: F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/synth_1/runme.log
+[Mon May 16 23:35:51 2022] Launched impl_1...
+Run output will be captured here: F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Mon May 16 23:36:39 2022] Launched synth_1...
+Run output will be captured here: F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/synth_1/runme.log
+[Mon May 16 23:36:39 2022] Launched impl_1...
+Run output will be captured here: F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Mon May 16 23:37:35 2022] Launched synth_1...
+Run output will be captured here: F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/synth_1/runme.log
+[Mon May 16 23:37:35 2022] Launched impl_1...
+Run output will be captured here: F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/runme.log
+set_property PROBES.FILE {F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/ip_fifo.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/ip_fifo.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/ip_fifo.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-2302] Device xc7z020 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+refresh_hw_device: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 4229.773 ; gain = 0.000
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_checker"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2022-May-16 23:39:57
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_checker"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_checker"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2022-May-16 23:39:57
+INFO: [Labtools 27-3304] ILA Waveform data saved to file F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file F:/ZYNQpractice/8.ip_fifo/8.ip_fifo.srcs/utils_1/imports/synth_1/ip_fifo.dcp with file F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/synth_1/ip_fifo.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Mon May 16 23:43:16 2022] Launched synth_1...
+Run output will be captured here: F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/synth_1/runme.log
+[Mon May 16 23:43:16 2022] Launched impl_1...
+Run output will be captured here: F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Mon May 16 23:43:57 2022] Launched synth_1...
+Run output will be captured here: F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/synth_1/runme.log
+[Mon May 16 23:43:57 2022] Launched impl_1...
+Run output will be captured here: F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/runme.log
+open_run impl_1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.061 . Memory (MB): peak = 4229.773 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 91 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2021.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.116 . Memory (MB): peak = 4894.539 ; gain = 0.000
+open_run: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 4894.539 ; gain = 664.766
+INFO: [Common 17-344] 'open_run' was cancelled
+set_property PROBES.FILE {F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/ip_fifo.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/ip_fifo.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/ip_fifo.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-2302] Device xc7z020 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+refresh_hw_device: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 4894.539 ; gain = 0.000
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2022-May-16 23:47:01
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2022-May-16 23:47:01
+INFO: [Labtools 27-3304] ILA Waveform data saved to file F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file F:/ZYNQpractice/8.ip_fifo/8.ip_fifo.srcs/utils_1/imports/synth_1/ip_fifo.dcp with file F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/synth_1/ip_fifo.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Mon May 16 23:48:24 2022] Launched synth_1...
+Run output will be captured here: F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/synth_1/runme.log
+[Mon May 16 23:48:24 2022] Launched impl_1...
+Run output will be captured here: F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/runme.log
+set_property PROBES.FILE {F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/ip_fifo.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/ip_fifo.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/ip_fifo.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-2302] Device xc7z020 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+refresh_hw_device: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 4894.539 ; gain = 0.000
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2022-May-16 23:51:13
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2022-May-16 23:51:13
+INFO: [Labtools 27-3304] ILA Waveform data saved to file F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file F:/ZYNQpractice/8.ip_fifo/8.ip_fifo.srcs/utils_1/imports/synth_1/ip_fifo.dcp with file F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/synth_1/ip_fifo.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Mon May 16 23:55:02 2022] Launched synth_1...
+Run output will be captured here: F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/synth_1/runme.log
+[Mon May 16 23:55:02 2022] Launched impl_1...
+Run output will be captured here: F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Mon May 16 23:55:51 2022] Launched synth_1...
+Run output will be captured here: F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/synth_1/runme.log
+[Mon May 16 23:55:51 2022] Launched impl_1...
+Run output will be captured here: F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Mon May 16 23:57:04 2022] Launched synth_1...
+Run output will be captured here: F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/synth_1/runme.log
+[Mon May 16 23:57:04 2022] Launched impl_1...
+Run output will be captured here: F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Mon May 16 23:58:09 2022] Launched synth_1...
+Run output will be captured here: F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/synth_1/runme.log
+[Mon May 16 23:58:09 2022] Launched impl_1...
+Run output will be captured here: F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/runme.log
+set_property PROBES.FILE {F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/ip_fifo.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/ip_fifo.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/ip_fifo.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-2302] Device xc7z020 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_checker"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_checker"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2022-May-17 00:01:09
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_checker"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_checker"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2022-May-17 00:01:10
+INFO: [Labtools 27-3304] ILA Waveform data saved to file F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+save_wave_config {F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue May 17 00:02:37 2022...

@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Mon May 16 23:58:48 2022
+# Process ID: 25196
+# Current directory: F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1
+# Command line: vivado.exe -log ip_fifo.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ip_fifo.tcl -notrace
+# Log file: F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1/ip_fifo.vdi
+# Journal file: F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.runs/impl_1\vivado.jou
+# Running On: DESKTOP-O59LNIU, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 16483 MB
+#-----------------------------------------------------------
+source ip_fifo.tcl -notrace

@@ -1,0 +1,5 @@
+set_property SRC_FILE_INFO {cfile:F:/ZYNQpractice/FPGApractice/8.ip_fifo/8.ip_fifo.srcs/constrs_1/new/cons_fifo.xdc rfile:../../../8.ip_fifo.srcs/constrs_1/new/cons_fifo.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN N16 [get_ports sys_rst_n]
+set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN U18 [get_ports sys_clk]
